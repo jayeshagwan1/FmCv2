@@ -3,18 +3,38 @@
 
 <head>
   <base href="./">
-  <title>Angular With Webpack</title>
+  <title>Find my Cook</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap core CSS     -->
+  <link href="src/assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!--  Material Dashboard CSS    -->
+  <link href="src/assets/css/material-dashboard.css?v=1.2.0" rel="stylesheet" />
+
+  <!--  Notifications Plugin    -->
+  <script src="src/assets/js/bootstrap-notify.js"></script>
+
+  <!-- Material Dashboard javascript methods -->
+  <script src="src/assets/js/material-dashboard.js?v=1.2.0"></script>
+
   <script src="src/assets/js/jquery-2.2.1.min.js"></script>
+
   <link rel="stylesheet" href="src/assets/css/materialize.min.css">
+
   <script src="src/assets/js/materialize.min.js"></script>
 
   <link rel="stylesheet" href="src/assets/css/styles.css"></link>
 </head>
 
 <body>
-  <my-app>Loading...</my-app>
+  <my-app>
+    	<div class="loader">
+	    	<svg class="circular" viewBox="25 25 50 50">
+	      		<circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+	    	</svg>
+	  	</div>
+  </my-app>
 </body>
 
 </html>

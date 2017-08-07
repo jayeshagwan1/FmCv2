@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, trigger, state, style, transition, animate } from '@angular/core';
 import { AuthenticationService } from '../service/authenticate'
 
 @Component({
-    selector: 'login-form',
+    selector: 'home-cmp',
     providers: [AuthenticationService],
     templateUrl: './home.component.html',
     styles: ['main { padding: 1em;font-family: Arial, Helvetica, sans-serif;text-align: center;margin-top: 50px;display: block;}']
